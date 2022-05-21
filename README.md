@@ -38,5 +38,19 @@ NODE_ENV=production
 
 ```
 
+Deployment on heroku -
+Add in package.json at server side
+```json
+"scripts": {
+    "start": "node server.js",
+    "server":"nodemon server.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+ },
+```
+
+
+
+
+
 
 
