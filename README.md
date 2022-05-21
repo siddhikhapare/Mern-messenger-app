@@ -10,3 +10,10 @@ Features
 - Rename group
 - View others users and own profile
 - View group members
+
+``` json
+{
+  "name": "client",
+  "version": "0.1.0",
+  "proxy": "http://localhost:5000",
+```
