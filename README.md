@@ -27,3 +27,16 @@ const ENDPOINT = "http://localhost:5000";
 // "https://react-mern-messengerapp.herokuapp.com";
 
 ```
+
+In .env file at server side -
+Mention port number while running locally otherwise at deployment remove it to be dynamic port 
+```json
+PORT=5000
+DATABASE=' '
+SECRET=' '
+NODE_ENV=production
+
+```
+
+
+
